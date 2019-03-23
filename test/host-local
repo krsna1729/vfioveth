@@ -1,0 +1,10 @@
+#!/bin/bash
+result='{
+    "cniVersion": "0.1.0",
+    "ip4": {
+        "ip": "1.1.1.1",
+        "gateway": "1.1.1.254",
+        "routes": []
+    }
+}'
+echo "$result"
